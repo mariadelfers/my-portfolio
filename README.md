@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Web project to show my skills and experience.
 
-## Available Scripts
+## Dev Environment 🔧
+- Node:
+- React:
 
-In the project directory, you can run:
+## Getting Started 🏁 
+1. Dowload or clone the [repository](https://github.com/mariadelfers/my-portfolio)
+```bash
+git clone https://github.com/mariadelfers/my-portfolio
+```
+2. Install dependecies
+```bash
+npm install
+```
+3. Run web application
+```bash
+npm run start
+```
+## Built with 🛠️
 
-### `npm start`
+* [Material-UI](https://material-ui.com/es/components/icons/) - Icons
+* [NodeJS](https://nodejs.org/es/download/) - Node Environment
+* [React](https://es.reactjs.org/docs/getting-started.html) - JS Library
+* [Storybooks](https://storybook.js.org/docs/guides/guide-react/) - Componentes UI 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Design tools 🎨
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* [Figma](https://www.figma.com/files/team/837081687303525522/ProyectoIntegrador) - Sketch UI
 
-### `npm test`
+## Contributing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Convetions & Standards
 
-### `npm run build`
+I follow the [conventional commits specification](https://www.conventionalcommits.org/en) for my commits messages:
+- `fix`: bug fixes, e.g. fix crash due to deprecated method.
+- `feat`: new feature, e.g. add new method to the module,
+- `refactor`: code refactor, e.g. migrate from class components to hooks.
+- `docs`: changes into documentation, e.g. add usage example for the module
+- `test`: adding or updating tests, e.g. add integration tests using detox.
+- `chore`: tooling changes, e.g. change CI config.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> **Working on your first pull request?** You can learn how form this _free_ series: [How to Contribute to an Open Source Project on Github](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Whe you're sending a pull request:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Prefer small pull request focused on one change.
+- Verify that linters and tests are passing.
+- Review the documentation to make sure it looks good.
+- Follow the pull request template when opening a pull request.
+- For pull request that change the API or implementation, discuss with maintainers first by opening an issue.
