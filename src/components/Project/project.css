@@ -1,0 +1,35 @@
+.card {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border: 3px  solid rgb(245, 0, 135, 0.788);
+  border-radius: 20px;
+  height: 450px;
+  width: 300px;
+}
+.info h1 {
+  font-weight: 300;
+  padding: 5px;
+  background-color: rgb(21, 95, 173);
+  color: white;
+  font-size: 20px;
+}
+.info p {
+  padding: 5px;
+  font-size: 14px;
+}
+.tags p {
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1;
+  padding-left: 25px;
+}
+.tag h1 {
+  margin: 1em 0;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 8px;
+  background-color: rgb(21, 95, 173);
+  font-size: 10px;
+}
+.button {
+  padding: 10px;
+}
