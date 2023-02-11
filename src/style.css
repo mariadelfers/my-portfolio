@@ -11,6 +11,12 @@ html {
     rgba(253, 253, 253, 0.315)
   );
 
+  --background-gradient: linear-gradient(
+    to bottom left,
+    rgb(255, 220, 245),
+    rgba(252, 223, 245, 0.884)
+  );
+
   --imp-text-color: #e068cc;
 }
 
@@ -144,7 +150,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #f9e4b7 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -263,6 +269,19 @@ button:focus {
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
+
+@media (max-width: 767px) {
+  .home-section {
+    position: relative;
+    z-index: -1;
+    background-image: var(--background-gradient);
+    background-position: top center;
+    background-repeat: round;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+  }
+}
+
 
 .home-content {
   padding: 9rem 0 2rem !important;
