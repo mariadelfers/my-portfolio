@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../assets/avatar.svg";
+import myImg from "../../assets/photo.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillYoutube,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -16,96 +17,88 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              About <span className="purple"> Me </span>
             </h1>
+            <Row>
+              <Col md={12} className="home-about-social">
+                <ul className="home-about-social-links">
+                  <li className="social-icons">
+                    <a
+                      href="https://github.com/mariadelfers"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour  home-social-icons"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                  <li className="social-icons">
+                    <a
+                      href="https://www.linkedin.com/in/mar%C3%ADa-fernanda-hern%C3%A1ndez-8a2098182/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour  home-social-icons"
+                    >
+                      <FaLinkedinIn />
+                    </a>
+                  </li>
+                  <li className="social-icons">
+                    <a
+                      href="https://twitter.com/mariadelfers"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour  home-social-icons"
+                    >
+                      <AiOutlineTwitter />
+                    </a>
+                  </li>
+                  <li className="social-icons">
+                    <a
+                      href="https://www.instagram.com/mariadelfers"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour home-social-icons"
+                    >
+                      <AiFillInstagram />
+                    </a>
+                  </li>
+                  <li className="social-icons">
+                    <a
+                      href="https://www.youtube.com/@mariadelfers"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="icon-colour  home-social-icons"
+                    >
+                      <AiFillYoutube />
+                    </a>
+                  </li>
+                </ul>
+              </Col>
+            </Row>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Python. </b>
-              </i>
+              I'm a <b className="purple">software engineer,</b> but I'm a
+              runner, traveler, and video game player too. I have a master's
+              degree in horror movies and suspense series. I like to transform
+              my clothes, and my extreme sport is to taste every dish in the
+              world.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
+              I like to create and develop tools that can help. It makes me
+              happy when my work is tangible and has a positive impact.
               <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              <br />I studied at Instituto Tecnológico de Estudios Superiores de
+              Monterrey (ITESM) from 2015 to 2020 and get graduated with
+              <b className="purple"> B.S. Computer Science and Technology </b>
+              with GPA of 3.7
+              <br />I also studied for one semester in Netherlands at Fontys
+              University of Applied Sciences in 2019 to get a Minor in EMBRACE
+              TEC
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
           </Col>
         </Row>
       </Container>
