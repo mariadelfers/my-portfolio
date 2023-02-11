@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.1b303450.css",
+    "main.css": "/my-portfolio/static/css/main.855cce66.css",
     "main.js": "/my-portfolio/static/js/main.3dc44608.js",
     "static/js/415.4d6acbeb.chunk.js": "/my-portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/my-portfolio/static/js/787.1ed0c42c.chunk.js",
@@ -15,13 +15,13 @@
     "static/media/Maria Hernandez CV.pdf": "/my-portfolio/static/media/Maria Hernandez CV.127e2c74f1ea7ff40fd0.pdf",
     "static/media/pre.svg": "/my-portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.1b303450.css.map": "/my-portfolio/static/css/main.1b303450.css.map",
+    "main.855cce66.css.map": "/my-portfolio/static/css/main.855cce66.css.map",
     "main.3dc44608.js.map": "/my-portfolio/static/js/main.3dc44608.js.map",
     "415.4d6acbeb.chunk.js.map": "/my-portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/my-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b303450.css",
+    "static/css/main.855cce66.css",
     "static/js/main.3dc44608.js"
   ]
 }
