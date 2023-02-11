@@ -103,7 +103,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #e068cc !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -263,7 +263,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/descarga5.png);
+  background-image: var(--image-gradient), url(./Assets/home-bg-des.png);
   background-position: top center;
   background-repeat: round;
   padding-bottom: 30px !important;
@@ -274,10 +274,9 @@ button:focus {
   .home-section {
     position: relative;
     z-index: -1;
-    background-image: var(--background-gradient);
+    background-image: var(--image-gradient), url(./Assets/home-bg.png);
     background-position: top center;
-    background-repeat: round;
-    padding-bottom: 30px !important;
+    background-repeat: no-repeat;
     padding-top: 30px !important;
   }
 }
