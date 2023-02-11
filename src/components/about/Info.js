@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../assets/photo.jpg";
+import myImg from "../../Assets/photo.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -87,8 +87,8 @@ function Home2() {
               happy when my work is tangible and has a positive impact.
               <br />
               <br />I studied at Instituto Tecnológico de Estudios Superiores de
-              Monterrey (ITESM) from 2015 to 2020 and get graduated with
-              <b className="purple"> B.S. Computer Science and Technology </b>
+              Monterrey (ITESM) from 2015 to 2020 and get a
+              <b className="purple"> B.S. in Computer Science and Technology </b>
               with GPA of 3.7
               <br />I also studied for one semester in Netherlands at Fontys
               University of Applied Sciences in 2019 to get a Minor in EMBRACE

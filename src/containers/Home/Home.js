@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Type from "../../components/home/Type";
+import Type from "../../components/Home/Type";
 
 function Home() {
   return (
