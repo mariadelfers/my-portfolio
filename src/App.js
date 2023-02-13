@@ -1,18 +1,25 @@
 import React, { useState, useEffect } from "react";
-import Preloader from "./components/core/Pre";
-import Navbar from "./components/core/Navbar";
-import Home from "./containers/Home/Home";
-import About from "./containers/About/About";
-import Projects from "./containers/Projects/Projects";
-import Footer from "./components/core/Footer";
-import Resume from "./containers/Resume/ResumeNew";
 import {
   BrowserRouter as Router,
   Route,
   Routes,
   Navigate
 } from "react-router-dom";
+
+// Containers
+import Home from "./containers/Home/Home";
+import About from "./containers/About/About";
+import Projects from "./containers/Projects/Projects";
+import Experience from "./containers/Experience/Experience";
+
+// Components
+import Preloader from "./components/core/Pre";
+import Navbar from "./components/core/Navbar";
+import Footer from "./components/core/Footer";
+import Resume from "./containers/Resume/ResumeNew";
 import ScrollToTop from "./components/core/ScrollToTop";
+
+// Styles
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -36,8 +43,8 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>

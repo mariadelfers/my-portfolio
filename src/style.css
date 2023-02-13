@@ -263,18 +263,18 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg-des.png);
+  background-image: var(--image-gradient), url(./Assets/backgrounds/home.png);
   background-position: top center;
-  background-repeat: round;
+  background-repeat: repeat;
   padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-top: 100px !important;
 }
 
 @media (max-width: 767px) {
   .home-section {
     position: relative;
     z-index: -1;
-    background-image: var(--image-gradient), url(./Assets/home-bg.png);
+    background-image: var(--image-gradient), url(./Assets/backgrounds/home-small.png);
     background-position: top center;
     background-repeat: no-repeat;
     padding-top: 30px !important;
