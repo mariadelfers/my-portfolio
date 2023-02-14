@@ -1,0 +1,33 @@
+.experience-card-view {
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  color: black !important;
+  background-color: #ffffffc9 !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+}
+.experience-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
+.card-img-company {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 20px !important;
+}
+.btn-experience {
+  color: #fff !important;
+  background-color: #623686 !important;
+  border-color: #623686 !important;
+}
+.btn-experience:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+.btn-experience:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
