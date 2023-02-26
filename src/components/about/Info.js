@@ -1,14 +1,18 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/photo.jpg";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
   AiFillYoutube,
+  AiOutlineDownload,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+
+// Assets
+import myImg from "../../Assets/photo.jpg";
+import pdf from "../../Assets/Maria Hernandez CV.pdf";
 
 function Home2() {
   return (
@@ -73,6 +77,15 @@ function Home2() {
                     </a>
                   </li>
                 </ul>
+                <Button
+                  variant="primary"
+                  href={pdf}
+                  target="_blank"
+                  style={{ maxWidth: "250px" }}
+                >
+                  <AiOutlineDownload />
+                  &nbsp;Download CV
+                </Button>
               </Col>
             </Row>
             <p className="home-about-body">
@@ -88,7 +101,10 @@ function Home2() {
               <br />
               <br />I studied at Instituto Tecnológico de Estudios Superiores de
               Monterrey (ITESM) from 2015 to 2020 and get a
-              <b className="purple"> B.S. in Computer Science and Technology </b>
+              <b className="purple">
+                {" "}
+                B.S. in Computer Science and Technology{" "}
+              </b>
               with GPA of 3.7
               <br />I also studied for one semester in Netherlands at Fontys
               University of Applied Sciences in 2019 to get a Minor in EMBRACE

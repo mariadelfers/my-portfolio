@@ -32,14 +32,18 @@ function ExperienceCard(props) {
             </Badge>
           ))}
         </div>
-        {/* <Button variant="experience" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {"GitHub"}
-        </Button>
-        <Button variant="experience" href={props.ghLink} target="_blank">
-          <BsPlus /> &nbsp;
-          {"More"}
-        </Button> */}
+        {props.ghLink ? (
+          <Button variant="experience" href={props.ghLink} target="_blank">
+            <BsGithub /> &nbsp;
+            {"GitHub"}
+          </Button>
+        ) : null}
+        {props.moreInfo ? (
+          <Button variant="experience" href={props.moreInfo} target="_blank">
+            <BsPlus /> &nbsp;
+            {"More"}
+          </Button>
+        ) : null}
       </Card.Body>
     </Card>
   );

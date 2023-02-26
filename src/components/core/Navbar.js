@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-import { AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineRocket, AiOutlineUser } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -72,6 +72,19 @@ function NavBar() {
                 Experience
               </Nav.Link>
             </Nav.Item>
+
+            {/* <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/projects"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineRocket
+                  style={{ marginBottom: "2px" }}
+                />
+                Projects
+              </Nav.Link>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

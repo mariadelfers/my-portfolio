@@ -16,7 +16,6 @@ import Experience from "./containers/Experience/Experience";
 import Preloader from "./components/core/Pre";
 import Navbar from "./components/core/Navbar";
 import Footer from "./components/core/Footer";
-import Resume from "./containers/Resume/ResumeNew";
 import ScrollToTop from "./components/core/ScrollToTop";
 
 // Styles
@@ -45,7 +44,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/experience" element={<Experience />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
