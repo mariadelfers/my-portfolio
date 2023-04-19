@@ -1,28 +1,33 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.dcb27f07.css",
-    "main.js": "/my-portfolio/static/js/main.3dc44608.js",
+    "main.css": "/my-portfolio/static/css/main.6dd7853a.css",
+    "main.js": "/my-portfolio/static/js/main.be58c40b.js",
     "static/js/415.4d6acbeb.chunk.js": "/my-portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/my-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/photo.jpg": "/my-portfolio/static/media/photo.36aaa624e6514ef2dfa8.jpg",
     "static/media/leaf.png": "/my-portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/emotion.png": "/my-portfolio/static/media/emotion.eabfc16e7a146ab15778.png",
     "static/media/suicide.png": "/my-portfolio/static/media/suicide.9c86cd7138a398c45fa5.png",
+    "static/media/home.png": "/my-portfolio/static/media/home.a2c7413dfa3757bb4480.png",
     "static/media/codeEditor.png": "/my-portfolio/static/media/codeEditor.1b585492490c8c1cace9.png",
-    "static/media/home-bg.png": "/my-portfolio/static/media/home-bg.4ec8cc1cfca9a0b22009.png",
+    "static/media/volkswagen.png": "/my-portfolio/static/media/volkswagen.740b4c01fe5c6962bccd.png",
     "static/media/blog.png": "/my-portfolio/static/media/blog.fb8ab7f271a937d5fc01.png",
-    "static/media/home-bg-des.png": "/my-portfolio/static/media/home-bg-des.26ba14f47dd567b31f0f.png",
+    "static/media/fontys.png": "/my-portfolio/static/media/fontys.92917dd8a6cec3dffec7.png",
     "static/media/chatify.png": "/my-portfolio/static/media/chatify.7206044e0b5cdad44726.png",
+    "static/media/walmart.png": "/my-portfolio/static/media/walmart.1a235075efad987fd078.png",
+    "static/media/home-small.png": "/my-portfolio/static/media/home-small.9bf995e02cbacf92ca33.png",
+    "static/media/mexilab.png": "/my-portfolio/static/media/mexilab.d7d0258fc89db39b9afe.png",
     "static/media/Maria Hernandez CV.pdf": "/my-portfolio/static/media/Maria Hernandez CV.127e2c74f1ea7ff40fd0.pdf",
+    "static/media/ternium.png": "/my-portfolio/static/media/ternium.e2bd3e9c94da2a7a34bc.png",
     "static/media/pre.svg": "/my-portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.dcb27f07.css.map": "/my-portfolio/static/css/main.dcb27f07.css.map",
-    "main.3dc44608.js.map": "/my-portfolio/static/js/main.3dc44608.js.map",
+    "main.6dd7853a.css.map": "/my-portfolio/static/css/main.6dd7853a.css.map",
+    "main.be58c40b.js.map": "/my-portfolio/static/js/main.be58c40b.js.map",
     "415.4d6acbeb.chunk.js.map": "/my-portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/my-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcb27f07.css",
-    "static/js/main.3dc44608.js"
+    "static/css/main.6dd7853a.css",
+    "static/js/main.be58c40b.js"
   ]
 }
