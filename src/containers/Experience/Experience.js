@@ -60,8 +60,8 @@ function Experience() {
               date="January 2018 - May 2018"
               description="Mobile application for internal use of the company and its employees. It helps the employees move inside the buildings"
               tools="XCode,Swift,Unit Test"
-              ghLink="github-link"
-              moreInfo="link"
+              //ghLink="github-link"
+              //moreInfo="link"
             />
           </Col>
 
@@ -71,10 +71,10 @@ function Experience() {
               jobTitle="Fullstack Developer Intern"
               company="MexiLab"
               date="August 2019 - June 2020"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="Web application for the control of electronic devices in your home or office. I developed the front end with ReactJS and Storybooks based on components. We storage the data in a MySQL database through an API (Python and Flask)."
               tools="ReactJS,JavaScript,MaterialUI,Storybook,MySQL,API RESTFul,JSON,Python,Flask,Github"
-              ghLink="github-link"
-              moreInfo="link"
+              ghLink="https://github.com/mariadelfers/control-of-energy-consumption"
+              //moreInfo="link"
             />
           </Col>
 
@@ -85,7 +85,7 @@ function Experience() {
               company="Fontys"
               companyLink="https://fontys.edu/Home.htm"
               date="February 2019 - July 2019"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="I studied for 6 months abroad, in the Netherlands. I had a lot of culture shocks from which I learned, improved my English, and learned a lot about design. The program I took was very focused on how to obtain requirements, understand the user, design solutions, and improve them."
               tools="Design Thinking,Unreal Engine,Excel,QlikSense,Firebase,3D Printing,Arduino,Python,RaspberryPi,"
               moreInfo="https://maria-embracetec.tumblr.com/"
             />
