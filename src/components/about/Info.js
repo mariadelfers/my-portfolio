@@ -78,13 +78,13 @@ function Home2() {
                   </li>
                 </ul>
                 <Button
-                  variant="primary"
+                  variant="secondary"
                   href={pdf}
                   target="_blank"
                   style={{ maxWidth: "250px" }}
                 >
                   <AiOutlineDownload />
-                  &nbsp;Download CV
+                  &nbsp;CV
                 </Button>
               </Col>
             </Row>

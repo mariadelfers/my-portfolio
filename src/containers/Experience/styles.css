@@ -1,17 +1,11 @@
 html {
-  --experience-background-color: linear-gradient(
-    to bottom left,
-    rgb(245, 221, 156),
-    rgba(245, 156, 225, 0.884)
-  );
-  --pink-text-color: #e068cc;
-  --green-text-color: #67c055;
+  --experience-background-color: #007878;
 }
 .experience-section {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-color: #007878 !important;
 }
 
 .experience-heading {
@@ -21,7 +15,7 @@ html {
   padding-top: 10px !important;
 }
 .experience-title {
-  color: #67c055;
+  color: #a8c030;
 }
 
 .experience-card {

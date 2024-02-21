@@ -31,6 +31,8 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           <strong className="main-name"> María F Hernández</strong>
+          <strong className="main-name" style={{marginLeft: "16px"}}> | </strong>
+          <strong className="main-name" style={{marginLeft: "16px"}}>Portfolio</strong>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

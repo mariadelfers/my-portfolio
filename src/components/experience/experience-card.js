@@ -13,7 +13,9 @@ function ExperienceCard(props) {
         <Card.Img src={props.imgPath} className="card-img-company" />
       </div>
       <Card.Body>
-        <Card.Title style={{ fontWeight: "bold" }}>{props.jobTitle}</Card.Title>
+        <Card.Title className="card-title" style={{ fontWeight: "bold" }}>
+          {props.jobTitle}
+        </Card.Title>
         <Card.Text
           style={{ textAlign: "center" }}
           href="https://github.com/mariadelfers"
@@ -27,19 +29,29 @@ function ExperienceCard(props) {
         <Card.Text style={{ fontWeight: "bold" }}>Tech Stack</Card.Text>
         <div>
           {props.tools.split(",").map((tool) => (
-            <Badge pill bg="secondary">
+            <Badge pill bg="primary">
               {tool}
             </Badge>
           ))}
         </div>
         {props.ghLink ? (
-          <Button variant="experience" href={props.ghLink} target="_blank">
+          <Button
+            variant="experience"
+            href={props.ghLink}
+            target="_blank"
+            style={{ marginTop: "16px" }}
+          >
             <BsGithub /> &nbsp;
             {"GitHub"}
           </Button>
         ) : null}
         {props.moreInfo ? (
-          <Button variant="experience" href={props.moreInfo} target="_blank">
+          <Button
+            variant="experience"
+            href={props.moreInfo}
+            target="_blank"
+            style={{ marginTop: "16px" }}
+          >
             <BsPlus /> &nbsp;
             {"More"}
           </Button>
