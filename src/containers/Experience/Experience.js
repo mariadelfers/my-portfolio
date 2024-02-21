@@ -19,7 +19,7 @@ function Experience() {
   return (
     <Container fluid className="experience-section">
       <Container>
-      <Particle />
+      {/* <Particle /> */}
         <h1 className="experience-heading">
           My <strong className="experience-title">Experience </strong>
         </h1>

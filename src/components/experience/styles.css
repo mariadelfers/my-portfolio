@@ -1,7 +1,7 @@
 .experience-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
-  color: black !important;
-  background-color: #ffffffc9 !important;
+  box-shadow: #184848!important;
+  color: #f0f0d8 !important;
+  background-color: #006060 !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -9,7 +9,7 @@
 .experience-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: #184848 !important;
 }
 .card-img-company {
   height: 100%;
@@ -17,15 +17,18 @@
   object-fit: contain;
   padding: 20px !important;
 }
+.card-title {
+  color: #a8c030;
+}
 .btn-experience {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #184848 !important;
+  border-color: #184848 !important;
 }
 .btn-experience:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color:#184848 !important;
+  border-color: #184848 !important;
 }
 .btn-experience:focus {
   outline: none !important;

@@ -17,7 +17,7 @@ html {
     rgba(252, 223, 245, 0.884)
   );
 
-  --imp-text-color: #e068cc;
+  --imp-text-color: #a8c030;
 }
 
 .purple {
@@ -68,13 +68,13 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #e068cc;
+  background: #006060;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #e068cc;
+  background: #006060;
   border-radius: 12px;
 }
 
@@ -82,7 +82,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #f9e4b7 !important;
+  background-color: #184848 !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -166,7 +166,7 @@ button:focus {
 }
 
 .navbar-nav .nav-link {
-  color: #e068cc !important;
+  color: #f0f0d8 !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -200,7 +200,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #e068cc;
+  background: #a8c030;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -263,7 +263,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/backgrounds/home.png);
+  background-color: #184848;
   background-position: top center;
   background-repeat: repeat;
   padding-bottom: 30px !important;
@@ -284,31 +284,31 @@ button:focus {
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  text-align: left;
+  text-align: center;
 }
 
 .heading {
   font-size: 2.4em !important;
-  padding-left: 50px !important;
+  color: white;
 }
 
 .heading-name {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  color: white;
 }
 
 .main-name {
-  color: #67c055;
+  color: #a8c030;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #e068cc !important;
+  color: white !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #e0d868 !important;
+  color: #a8c030 !important;
 }
 
 @media (max-width: 767px) {
@@ -359,7 +359,7 @@ button:focus {
 .home-about-social {
   text-align: center !important;
   padding-top: 15px;
-  color: white !important;
+  color: #006060 !important;
 }
 
 .home-about-social-links {
@@ -378,7 +378,7 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
+  background: #006060 !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -391,7 +391,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #a8c030;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -399,13 +399,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #e068cc;
+  box-shadow: 0 0 15px #a8c030;
 }
 
 .home-social-icons:hover {
-  color: #ff00d4;
-  box-shadow: 0 0 5px #fd03d4;
-  text-shadow: 0 0 2px #ff01d5;
+  color: #a8c030;
+  box-shadow: 0 0 5px #a8c030;
+  text-shadow: 0 0 2px #a8c030;
 }
 
 .social-icons {
@@ -415,14 +415,14 @@ button:focus {
 }
 
 .icon-colour {
-  color: rgb(109, 103, 53) !important;
+  color: #f0f0d8 !important;
 }
 
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: #f9e4b7;
+  background-color: #184848;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -448,7 +448,7 @@ button:focus {
 
 .footer h3 {
   font-size: 0.75em;
-  color: rgb(109, 103, 53) !important;
+  color:#f0f0d8 !important;
   margin-top: 1em !important;
   margin-bottom: 0.5em !important;
 }
@@ -566,7 +566,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+background-color: #006060;
   color: white !important;
 }
 
@@ -575,12 +575,12 @@ button:focus {
   margin: 10px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid #ff00d488 !important;
+  border: 1.7px solid #184848 !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 10px !important;
   display: table !important;
-  box-shadow: 4px 6px 4px 3px #ca22ae63 !important;
+  box-shadow: 4px 6px 4px 3px #184848 !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -595,11 +595,6 @@ button:focus {
   }
 }
 
-.tech-icons:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
-  border: 3px solid #ffffff !important;
-}
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
