@@ -103,7 +103,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #e068cc !important;
+  background-color: #a8c030 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -150,7 +150,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #f9e4b7 !important;
+    background-color: #184848 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -274,13 +274,12 @@ button:focus {
   .home-section {
     position: relative;
     z-index: -1;
-    background-image: var(--image-gradient), url(./Assets/backgrounds/home-small.png);
+   background-color: #184848;
     background-position: top center;
     background-repeat: no-repeat;
     padding-top: 30px !important;
   }
 }
-
 
 .home-content {
   padding: 9rem 0 2rem !important;
@@ -352,7 +351,7 @@ button:focus {
 
 .home-about-body {
   padding-top: 50px;
-  font-size: 1.0em !important;
+  font-size: 1em !important;
   text-align: left;
 }
 
@@ -448,7 +447,7 @@ button:focus {
 
 .footer h3 {
   font-size: 0.75em;
-  color:#f0f0d8 !important;
+  color: #f0f0d8 !important;
   margin-top: 1em !important;
   margin-bottom: 0.5em !important;
 }
@@ -566,7 +565,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-background-color: #006060;
+  background-color: #006060;
   color: white !important;
 }
 

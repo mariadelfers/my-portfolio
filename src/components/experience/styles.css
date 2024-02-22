@@ -1,5 +1,5 @@
 .experience-card-view {
-  box-shadow: #184848!important;
+  box-shadow: #184848 !important;
   color: #f0f0d8 !important;
   background-color: #006060 !important;
   opacity: 0.9 !important;
@@ -27,7 +27,7 @@
 }
 .btn-experience:hover {
   color: #fff !important;
-  background-color:#184848 !important;
+  background-color: #184848 !important;
   border-color: #184848 !important;
 }
 .btn-experience:focus {
