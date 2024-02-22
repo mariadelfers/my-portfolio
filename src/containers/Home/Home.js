@@ -17,7 +17,7 @@ function Home() {
                 Portfolio
               </h1>
 
-              <div style={{ padding: 50, textAlign: "center" }}>
+              <div style={{ textAlign: "center" }}>
                 <Type />
               </div>
             </Col>

@@ -9,6 +9,7 @@ import {
 // Containers
 import Home from "./containers/Home/Home";
 import About from "./containers/About/About";
+import Skills from "./containers/Skills/Skill";
 import Projects from "./containers/Projects/Projects";
 import Experience from "./containers/Experience/Experience";
 
@@ -43,6 +44,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="*" element={<Navigate to="/"/>} />

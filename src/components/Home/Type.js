@@ -10,6 +10,7 @@ function Type() {
           "Fullstack Developer",
           "Front-end Developer",
           "Back-end Developer",
+          "React Developer"
         ],
         autoStart: true,
         loop: true,

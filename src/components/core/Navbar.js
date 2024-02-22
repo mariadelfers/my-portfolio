@@ -31,8 +31,6 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           <strong className="main-name"> María F Hernández</strong>
-          <strong className="main-name" style={{marginLeft: "16px"}}> | </strong>
-          <strong className="main-name" style={{marginLeft: "16px"}}>Portfolio</strong>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -59,6 +57,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About Me
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/skills"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Skills
               </Nav.Link>
             </Nav.Item>
 
