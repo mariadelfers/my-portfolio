@@ -13,6 +13,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 // Assets
 import myImg from "../../Assets/photo.jpg";
 import pdf from "../../Assets/Maria Hernandez CV.pdf";
+import pdf_portfolio from "../../Assets/Portfolio.pdf";
 
 function Home2() {
   return (
@@ -86,14 +87,26 @@ function Home2() {
                   <AiOutlineDownload />
                   &nbsp;CV
                 </Button>
+                <Button
+                  variant="secondary"
+                  href={pdf_portfolio}
+                  target="_blank"
+                  style={{ maxWidth: "250px", marginLeft: "20px" }}
+                >
+                  <AiOutlineDownload />
+                  &nbsp;Portfolio
+                </Button>
               </Col>
             </Row>
             <p className="home-about-body">
               I'm a <b className="purple">software engineer,</b> but I'm a
-              runner, traveler, and video game player too. I have a master's
-              degree in horror movies and suspense series. I like to transform
-              my clothes, and my extreme sport is to taste every dish in the
-              world.
+              runner, traveler, and video game player too. I take great
+              satisfaction in assisting others and generously imparting my
+              knowledge, focus, and expertise to those in need. My approach is
+              marked by consistency and a commitment to achieving the highest
+              standards. I not only complete tasks but do so with a sense of
+              pride and dedication. I identify as a responsible and highly
+              organized individual.
               <br />
               <br />
               I like to create and develop tools that can help. It makes me

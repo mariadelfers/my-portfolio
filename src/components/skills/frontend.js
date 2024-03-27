@@ -1,35 +1,34 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { DiNetbeans } from "react-icons/di";
+import { DiJavascript1, DiReact, DiHtml5, DiCss3 } from "react-icons/di";
 import {
-  SiVisualstudiocode,
-  SiPostman,
-  SiAndroidstudio,
-  SiXcode,
   SiFigma,
+  SiJest,
+  SiReactrouter,
+  SiRedux,
+  SiReduxsaga,
   SiStorybook,
-  SiXampp,
-  SiMariadb,
+  SiTypescript,
 } from "react-icons/si";
 
-function Toolstack() {
+function Frontend() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-        <p>Visual Studio</p>
+        <SiTypescript />
+        <p>Typescript</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-        <p>Postman</p>
+        <DiJavascript1 />
+        <p>Javascript</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAndroidstudio />
-        <p>Android Studio</p>
+        <DiHtml5 />
+        <p>HTML</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiXcode />
-        <p>Xcode</p>
+        <DiCss3 />
+        <p>CSS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFigma />
@@ -40,19 +39,27 @@ function Toolstack() {
         <p>Storybook</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNetbeans />
-        <p>Netbeans</p>
+        <DiReact />
+        <p>React</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiXampp />
-        <p>Xampp</p>
+        <SiReactrouter />
+        <p>React Router</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMariadb />
-        <p>MariaDB</p>
+        <SiRedux />
+        <p>React Redux</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiReduxsaga />
+        <p>React Sagas</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJest />
+        <p>Jest</p>
       </Col>
     </Row>
   );
 }
 
-export default Toolstack;
+export default Frontend;
