@@ -1,25 +1,50 @@
-.experience-card-view {
-  box-shadow: #184848 !important;
-  color: #f0f0d8 !important;
-  background-color: #006060 !important;
-  opacity: 0.9 !important;
-  transition: all 0.5s ease 0s !important;
-  height: 100% !important;
+.experience-card {
+  background-color: #1848488d !important;
+  border-color: #f1f7f7 !important;
+  margin-bottom: 50px;
+  color: #F1FADA;
 }
-.experience-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: #184848 !important;
+
+.experience-card-imagen img {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
 }
-.card-img-company {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-  padding: 20px !important;
+
+.experience-card-title {
+  flex: 1;
 }
-.card-title {
+
+.experience-title {
   color: #a8c030;
+  margin-right: 20px;
 }
+.experience-company {
+  color: #fff;
+  margin-right: 20px;
+}
+.experience-info {
+  color: #9AD0C2;
+  margin-right: 20px;
+}
+
+
+.experience-portfolio-imagen img {
+  width: 200px;
+  height: auto;
+  align-items: center;
+  align-self: 'center';
+  margin-left: 20px;
+}
+
+.experience-portfolio-imagen2 img {
+  width: 600px;
+  height: auto;
+  align-items: center;
+  align-self: 'center';
+}
+
+
 .btn-experience {
   color: #fff !important;
   background-color: #184848 !important;
@@ -33,4 +58,12 @@
 .btn-experience:focus {
   outline: none !important;
   box-shadow: none !important;
+}
+
+.row {
+  display: "flex";
+  align-items: "center";
+}
+.flex {
+  flex: 1;
 }

@@ -1,32 +1,87 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
 import { BsGithub, BsPlus } from "react-icons/bs";
 import "./styles.css";
-import { Badge, Row } from "react-bootstrap";
+import { Badge } from "react-bootstrap";
 
 function ExperienceCard(props) {
   return (
-    <Card className="experience-card-view">
-      <div className="card-container">
-        <Card.Img src={props.imgPath} className="card-img-company" />
+    <div className="experience-card">
+      <div style={{ display: "flex", alignItems: "center" }}>
+        <div className="experience-card-imagen">
+          <img src={props.imgPath} alt={props.company} />
+        </div>
+
+        <div>
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <Card.Title
+              className="experience-title"
+              style={{ fontWeight: "bold" }}
+            >
+              {props.jobTitle}
+            </Card.Title>
+            <Card.Title
+              className="experience-company"
+              style={{ textAlign: "center" }}
+              href={props.moreInfo}
+            >
+              {props.company}
+            </Card.Title>
+          </div>
+          <Card.Text className="experience-info" style={{ textAlign: "left" }}>
+            {props.date}
+          </Card.Text>
+          <Card.Text className="experience-info" style={{ textAlign: "left" }}>
+            {props.place}
+          </Card.Text>
+        </div>
       </div>
+
       <Card.Body>
-        <Card.Title className="card-title" style={{ fontWeight: "bold" }}>
-          {props.jobTitle}
-        </Card.Title>
-        <Card.Text
-          style={{ textAlign: "center" }}
-          href="https://github.com/mariadelfers"
+        <div>
+          {props.description.split("•").map((point) => (
+            <Card.Text style={{ textAlign: "justify" }}>
+              {"•"}
+              {point}
+            </Card.Text>
+          ))}
+        </div>
+
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            marginTop: 30,
+            marginBottom: 30,
+          }}
         >
-          {props.company}
+          {props.img1 && (
+            <div className="experience-portfolio-imagen">
+              <img src={props.img1} alt={props.company} />
+            </div>
+          )}
+          {props.img2 && (
+            <div className="experience-portfolio-imagen">
+              <img src={props.img2} alt={props.company} />
+            </div>
+          )}
+          {props.img3 && (
+            <div className="experience-portfolio-imagen">
+              <img src={props.img3} alt={props.company} />
+            </div>
+          )}
+          {props.img4 && (
+            <div className="experience-portfolio-imagen2">
+              <img src={props.img4} alt={props.company} />
+            </div>
+          )}
+        </div>
+
+        <Card.Text className="experience-info" style={{ fontWeight: "bold" }}>
+          Tech Stack
         </Card.Text>
-        <Card.Text style={{ textAlign: "center" }}>{props.date}</Card.Text>
-        <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
-        </Card.Text>
-        <Card.Text style={{ fontWeight: "bold" }}>Tech Stack</Card.Text>
         <div>
           {props.tools.split(",").map((tool) => (
             <Badge pill bg="primary">
@@ -42,7 +97,7 @@ function ExperienceCard(props) {
             style={{ marginTop: "16px" }}
           >
             <BsGithub /> &nbsp;
-            {"GitHub"}
+            {"More Info"}
           </Button>
         ) : null}
         {props.moreInfo ? (
@@ -53,11 +108,11 @@ function ExperienceCard(props) {
             style={{ marginTop: "16px" }}
           >
             <BsPlus /> &nbsp;
-            {"More"}
+            {"Company"}
           </Button>
         ) : null}
       </Card.Body>
-    </Card>
+    </div>
   );
 }
 export default ExperienceCard;
