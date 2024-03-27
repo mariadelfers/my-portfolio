@@ -1,10 +1,16 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.ed3ea0d9.css",
-    "main.js": "/my-portfolio/static/js/main.cccf772b.js",
+    "main.css": "/my-portfolio/static/css/main.13aa46a7.css",
+    "main.js": "/my-portfolio/static/js/main.c77afb9d.js",
     "static/js/415.4d6acbeb.chunk.js": "/my-portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/my-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Portfolio.pdf": "/my-portfolio/static/media/Portfolio.da3c8e0932059fe49db9.pdf",
+    "static/media/mexilab1.png": "/my-portfolio/static/media/mexilab1.d134eb8fa465fedefe33.png",
     "static/media/leaf.png": "/my-portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
+    "static/media/Maria Hernandez CV.pdf": "/my-portfolio/static/media/Maria Hernandez CV.4b6f6ffbb568cb0b85da.pdf",
+    "static/media/walmart3.png": "/my-portfolio/static/media/walmart3.18dce6a99f73de2acb34.png",
+    "static/media/walmart2.png": "/my-portfolio/static/media/walmart2.bf7f0416aad0d7f98c19.png",
+    "static/media/walmart1.png": "/my-portfolio/static/media/walmart1.e84adc2f258a97ac395e.png",
     "static/media/emotion.png": "/my-portfolio/static/media/emotion.eabfc16e7a146ab15778.png",
     "static/media/suicide.png": "/my-portfolio/static/media/suicide.9c86cd7138a398c45fa5.png",
     "static/media/photo.jpg": "/my-portfolio/static/media/photo.a5f138fbd76cb8d7fcb0.jpg",
@@ -15,17 +21,16 @@
     "static/media/chatify.png": "/my-portfolio/static/media/chatify.7206044e0b5cdad44726.png",
     "static/media/walmart.png": "/my-portfolio/static/media/walmart.1a235075efad987fd078.png",
     "static/media/mexilab.png": "/my-portfolio/static/media/mexilab.d7d0258fc89db39b9afe.png",
-    "static/media/Maria Hernandez CV.pdf": "/my-portfolio/static/media/Maria Hernandez CV.127e2c74f1ea7ff40fd0.pdf",
     "static/media/ternium.png": "/my-portfolio/static/media/ternium.e2bd3e9c94da2a7a34bc.png",
     "static/media/pre.svg": "/my-portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.ed3ea0d9.css.map": "/my-portfolio/static/css/main.ed3ea0d9.css.map",
-    "main.cccf772b.js.map": "/my-portfolio/static/js/main.cccf772b.js.map",
+    "main.13aa46a7.css.map": "/my-portfolio/static/css/main.13aa46a7.css.map",
+    "main.c77afb9d.js.map": "/my-portfolio/static/js/main.c77afb9d.js.map",
     "415.4d6acbeb.chunk.js.map": "/my-portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/my-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed3ea0d9.css",
-    "static/js/main.cccf772b.js"
+    "static/css/main.13aa46a7.css",
+    "static/js/main.c77afb9d.js"
   ]
 }
